@@ -34,4 +34,21 @@ body {
   margin: 0 12px 0 12px;
   padding: 8px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.top {
+  background: #EBEBEB;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.buscar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }
