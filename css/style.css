@@ -16,11 +16,22 @@ body {
   right: 0;
   font-size: 20px;
   color: white;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .menu li {
   display: inline-block;
   padding: 0 15px 0 5px;
   border-right: 1px solid white;
+}
+
+.menu button {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  background: #D64843;
+  color: white;
+  font-size: 16px;
+  margin: 0 12px 0 12px;
+  padding: 8px;
+  border-radius: 5px;
 }
