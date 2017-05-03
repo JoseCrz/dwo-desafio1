@@ -64,3 +64,18 @@ body {
   justify-content: flex-end;
   padding: 10px;
 }
+
+.medium {
+  display: flex;
+}
+
+.carta {
+  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.carta h4 {
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
