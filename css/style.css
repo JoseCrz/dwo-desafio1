@@ -41,6 +41,18 @@ body {
   background: #EBEBEB;
 }
 
+.top button {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  background: #313D48;
+  color: white;
+  font-size: 14px;
+  margin-left:  5px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .container {
   width: 1000px;
   margin: auto;
