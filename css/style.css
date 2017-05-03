@@ -77,16 +77,28 @@ body {
   width: 300px;
 }
 
+.carta h2 {
+  padding-bottom: 25px;
+  border-bottom: 1px solid black
+}
+
 .carta h4 {
-  border-top: 1px solid black;
-  padding-top: 5px;
+  display: inline;
 }
 
 .carta img {
   width: 300px;
 }
 
+.autor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+}
+
 footer {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
