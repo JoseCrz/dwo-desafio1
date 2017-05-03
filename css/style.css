@@ -19,6 +19,31 @@ body {
   margin-top: 5px;
 }
 
+.tarjeta {
+  background: rgba(255,255,255, .8);
+  width: 450px;
+  padding: 0px 5px 0px 5px;
+  float: left;
+  position: absolute;
+  bottom: 50px;
+  left: 15px;
+  border-radius: 3px;
+}
+
+.tarjeta img {
+  border-radius: 50%;
+  display: inline;
+}
+
+.tarjeta h5 {
+  display: inline;
+}
+
+.tarjeta h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
 .menu li {
   display: inline-block;
   padding: 0 15px 0 5px;
