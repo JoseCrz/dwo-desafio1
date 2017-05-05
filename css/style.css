@@ -49,18 +49,37 @@ body {
   display: inline-block;
   padding: 0 15px 0 5px;
   border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.menu li.activo {
+  color: #AAC92F;
+}
+
+.menu li:hover {
+  color: #D84944;
 }
 
 .menu button {
   font-family: 'Lato', sans-serif;
   border: none;
-  background: #D64843;
+  border-bottom: 4px solid #B32B2E;
+  background:  #D84944;
   color: white;
   font-size: 16px;
   margin: 0 12px 0 12px;
   padding: 8px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.menu button:hover {
+  background: #AAC92F;
+  border-bottom: 4px solid #618D00;
+}
+
+.menu button:active {
+  transform: scale(.9);
 }
 
 .top {
@@ -127,7 +146,7 @@ body {
 }
 
 footer {
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,4 +162,8 @@ footer button {
   padding: 10px;
   margin-left: 5px;
   cursor: pointer;
+}
+
+footer button:hover {
+  background: #bdbdbd;
 }
